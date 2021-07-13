@@ -20,17 +20,17 @@ body{
 }
 .row-1::after{
     content:'';
-    width:100%;
+    width: 100%;
     background-image: url(../img/wave.svg);
-    height: 450px;
+    height: 490px;
     position: relative;
-    top: 700px;
+    top: 680px;
 }
 .col-1{
     flex-basis: 40%;
     min-width: 330px;
     position:absolute;
-    top:450px;
+    top:400px;
     right: 140px;
 }
 .col-1 h1{
@@ -66,7 +66,7 @@ body{
 }
 
 .container{
-    padding: 50 100px;
+    padding: 50px 100px;
     background-color: #222629;
     text-align: center;
 }
@@ -74,7 +74,7 @@ body{
     color: #fff;
     font-size: 60px;
     font:bold;
-    padding: 50px 0 50px;
+    padding: 0px 0 50px;
     letter-spacing: 5px;
 }
 .row-3{
