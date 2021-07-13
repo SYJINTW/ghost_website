@@ -29,5 +29,5 @@ sendBtn.addEventListener("click", e => {
     headers: { "Content-type": "application/json; charset=UTF-8" },
   });
   window.alert("Successfully post the wish!");
-  window.location.href = "http://127.0.0.1:5501/book.html";
+  window.location.href = "/book.html";
 });
