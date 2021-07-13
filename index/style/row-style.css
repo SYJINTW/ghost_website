@@ -54,3 +54,38 @@ body{
 .btn:hover{
     background-color:#61892F;
 }
+
+.row-img-right{
+    display: flex;
+    background-color: #222629;
+}
+.word-left{
+    text-align: left;
+    max-width: 770px;
+    padding: 60px 80px;
+    margin: auto;
+}
+.word-left h3, .word-right h3{
+    font-size: 32px;
+    margin: 25px;
+    color: #fff;
+    
+}
+.word-left p,.word-right p{
+    font-size: 28px;
+    color:#6B6E70;
+}
+.row-img-right img, .row-img-left img{
+    min-width: 500px;
+    min-height: auto;
+}
+.row-img-left{
+    display: flex;
+    background-color: #222629;
+}
+.word-right{
+    text-align: right;
+    max-width: 770px;
+    padding: 60px 80px;
+    margin: auto;
+}
