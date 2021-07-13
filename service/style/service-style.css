@@ -141,3 +141,7 @@ body {
 .row-3 .col-3 .small-btn:hover {
     background-color: #61892F;
 }
+
+html{
+    scroll-behavior: smooth;
+}
