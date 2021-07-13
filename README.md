@@ -54,6 +54,56 @@ ghost_website_template
 /--------fisrt.png  
 /--------second.jpg  
 
+
+## Coding Compement 
+
+### Header and Footer
+
+#### CSS file embed
+
+```html
+<link rel="stylesheet" href="index/style/header-footer-style.css">
+```
+
+### Header
+
+```html
+<!-- Header -->
+<div class="navbar">
+    <div class="logo">
+        <img src="global/img/logo2-white.svg" alt="Logo">
+    </div>
+    <nav>
+        <ul id="MenuItems">
+            <li><a class="active" href="home">HOME</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a class="action" href="action.html">TAKE ACTION</a></li>
+        </ul>
+    </nav>
+    <div class="login">
+        <img src="global/img/login-icon-white.svg" alt="Login">
+    </div>
+    
+</div>
+```
+
+### Footer
+
+```html
+<!-- Footer -->
+<footer>
+    <div class="logo">
+        <img src="global/img/logo2-white.svg" alt="Logo">
+    </div>
+    <p>Copyright © 2021 GHoST</p>
+    
+</footer>
+```
+
+
 ## Authors
 
 - [@SYJINTW](https://github.com/SYJINTW)
