@@ -56,9 +56,9 @@ body {
     display: inline-block;
     color: #86C232;
     border-radius: 50px;
-    font-size: 28px;
+    font-size: 24px;
     text-decoration: none;
-    width: 300px;
+    width: 330px;
     height: 76px;
     text-align: center;
     line-height: 70px;
@@ -77,9 +77,9 @@ body {
     background-color: #86C232;
     color: #fff;
     border-radius: 50px;
-    font-size: 28px;
+    font-size: 24px;
     text-decoration: none;
-    width: 300px;
+    width: 330px;
     height: 76px;
     text-align: center;
     line-height: 70px;
@@ -89,9 +89,9 @@ body {
 }
 
 .btn:hover {
-    border: 5px solid #86C232;
-    color: #86C232;
-    background-color:unset;
+    border: 5px solid #61892F;
+    color: #fff;
+    background-color: #61892F;
     margin:0 25px;
 }
 
@@ -126,7 +126,7 @@ body {
 .wishing-list h2{
     color:#86C232;
     padding: 20px 0;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-size: 40px;
     align-items: center;
 }
@@ -170,14 +170,26 @@ input, select, textarea{
     text-align: left;
     text-transform: capitalize;
 }
-.list-row .btn{
+.list-row .send-btn{
+    display: inline-block;
+    color: #86C232;
+    border-radius: 50px;
     width: 50%;
-    height: 50px;
+    height: 58px;
     text-align: center;
     margin: 35px auto;
-    line-height: 45px;
-    border-width: 3px;
+    line-height: 50px;
+    border:3px solid #86C232;
+    font-size: 28px;
+    text-decoration: none;
+    letter-spacing: 3px;
 }
+.send-btn:hover {
+    background-color: #86C232;
+    color: #fff;
+}
+
+
 ::placeholder{
     color:#fff;
     padding-left:5px;
@@ -189,4 +201,8 @@ input, select, textarea{
 ::-webkit-input-placeholder{
     color:#fff;
     padding-left:5px;
+}
+
+html{
+    scroll-behavior: smooth;
 }

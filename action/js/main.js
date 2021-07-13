@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
       jQuery(document).ready(function ($) {
         $("#wishes").counterUp({
           delay: 10,
-          time: 500,
+          time: time,
         });
       });
     });
