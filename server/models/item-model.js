@@ -18,6 +18,14 @@ const itemSchema = new mongoose.Schema({
     enum: ["Book", "Food"],
     required: true,
   },
+  city: {
+    type: String,
+    required: true,
+  },
+  church: {
+    type: String,
+    required: true,
+  },
   date: {
     type: String,
     default: Date.now,
