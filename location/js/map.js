@@ -3,7 +3,6 @@ var lngTaipei = 121.53702779432545;
 var latTaichung = 24.14849;
 var lngTaichung = 120.6613;
 var viewClick = "Addr";
-
 var latValue = 25.041832276355585;
 var lngValue = 121.53702779432545;
 var zoomValue = 13;
@@ -53,6 +52,7 @@ function change() {
 }
 
     function initMap() {
+        document.getElementById('viewClick').innerText = "Addr";
         var markers = [];
         var infoWindows = [];
         var map = new google.maps.Map(document.getElementById('map'), {
