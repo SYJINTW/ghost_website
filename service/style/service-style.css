@@ -23,8 +23,9 @@ body {
     width: 100%;
     background-image: url(../img/wave.svg);
     height: 490px;
-    position: relative;
-    top: 680px;
+    position: absolute;
+    bottom: -150px;
+    pointer-events: none;
 }
 
 .col-1 {
@@ -60,7 +61,7 @@ body {
     width: 362px;
     height: 76px;
     text-align: center;
-    line-height: 70px;
+    line-height: 66px;
     letter-spacing: 5px;
     border: 5px solid #86C232;
 }
