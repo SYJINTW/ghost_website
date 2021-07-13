@@ -81,11 +81,35 @@
   font-size: 40px;
 }
 
+.content-row-2 {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 26px;
+  margin-bottom: 32px;
+}
+
+.title {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .content-row-2 p {
   color: #fff;
   font-size: 28px;
-  margin-top: 24px;
-  margin-bottom: 32px;
+}
+
+.icon {
+  height: 70px;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .list {
@@ -119,6 +143,10 @@
 .list-item p {
   color: #fff;
   font-size: 24px;
+}
+
+.icon img:hover {
+  cursor: pointer;
 }
 
 .btn {
