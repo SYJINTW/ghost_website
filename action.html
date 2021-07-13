@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="index/style/header-footer-style.css" />
+    <link rel="stylesheet" href="action/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="navbar">
+      <div class="logo">
+        <img src="global/img/logo2-white.svg" alt="Logo" />
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a href="service.html">SERVICE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a class="action" href="action.html">TAKE ACTION</a></li>
+        </ul>
+      </nav>
+      <div class="login">
+        <img src="global/img/login-icon-white.svg" alt="Login" />
+      </div>
+    </div>
+
+    <div class="counter-container">
+      <div class="achieved">
+        <div>
+          <p class="counter">98874238</p>
+          <script src="/action/js/jquery.counterup.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+          <script>
+            jQuery(document).ready(function ($) {
+              $(".counter").counterUp({
+                delay: 10,
+                time: 2000,
+              });
+            });
+          </script>
+        </div>
+        <div>
+          <p class="content">Wishes Has Been Achieved</p>
+        </div>
+      </div>
+    </div>
+    <div class="donation-container">
+      <div class="left-container">
+        <div class="content">
+          <p>STILL HAVE</p>
+          <p id="wishes">30000</p>
+          <p>WISHES</p>
+        </div>
+      </div>
+      <div class="right-container"></div>
+    </div>
+  </body>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo">
+      <img src="global/img/logo2-white.svg" alt="Logo" />
+    </div>
+    <p>Copyright © 2021 GHoST</p>
+  </footer>
+
+  <script src="/action/js/main.js"></script>
+</html>

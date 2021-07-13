@@ -103,6 +103,98 @@ ghost_website_template
 </footer>
 ```
 
+### Button
+
+#### Solid Button
+
+HTML Part
+
+```html
+<!-- button -->
+<a class="btn" href="#">Context</a>
+```
+
+CSS part
+
+```css
+.btn{
+    display: inline-block;
+    background-color:#86C232;
+    color:#fff; 
+    border-radius: 50px;
+    font-size:28px;
+    text-decoration: none;
+    width: 362px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    letter-spacing: 5px;
+}
+.btn:hover{
+    background-color:#61892F;
+}
+```
+
+#### Hollow Button
+
+HTML Part
+```html
+<a class="hollow-btn" href="findus">FIND US</a>
+```
+
+CSS Part
+```css
+.hollow-btn {
+    display: inline-block;
+    color: #86C232;
+    border-radius: 50px;
+    font-size: 28px;
+    text-decoration: none;
+    width: 362px;
+    height: 76px;
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: 5px;
+    border: 5px solid #86C232;
+}
+
+.hollow-btn:hover {
+    background-color: #86C232;
+    color: #fff;
+}
+```
+
+#### Small Solid Button
+
+HTML Part
+```html
+<a class="small-btn" href="#">Context</a>
+```
+
+CSS Part
+```css
+.small-btn {
+    display: inline-block;
+    width: 220px;
+    height: 76px;
+    font-size: 24px;
+    background-color: #86C232;
+    color: #fff;
+    border-radius: 50px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    line-height: 76px;
+    margin: 40px 0;
+}
+
+.small-btn:hover {
+    background-color: #61892F;
+}
+```
+
+
+
+
 
 ## Authors
 
