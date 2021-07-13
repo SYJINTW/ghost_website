@@ -136,11 +136,24 @@
     overflow: hidden;
     border-radius: 50px;
     position: absolute;
-    top: 375px;
-    left: 297px;
+    top: 0px;
+    left: auto;
     z-index: 0;
     width: 985px;
     height: 690px;
     border: none;
     margin: auto;
+    /* margin-left: 297px;
+    margin-right: 297px; */
+    justify-content: center;
   }
+  
+  .center {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 375px;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: center;
+  } 
