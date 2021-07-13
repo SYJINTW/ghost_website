@@ -34,6 +34,8 @@ const itemValidation = data => {
     image: Joi.string().required(),
     content: Joi.string().required(),
     type: Joi.string().required().valid("Book", "Food"),
+    city: Joi.string().required(),
+    church: Joi.string().required(),
   });
   return schema.validate(data);
 };
