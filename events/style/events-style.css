@@ -14,7 +14,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     height: 1080px;
-    background: url("../img/index-main.jpg");
+    background: url("../img/events-main.jpg");
     background-size: cover;
     text-align: right;
 }
@@ -30,6 +30,7 @@ body{
     color:#fff;
     padding: 0;
     margin: 0;
+    letter-spacing: 5px;
 }
 .col-1 p{
     font-size:24px;
@@ -55,40 +56,6 @@ body{
     background-color:#61892F;
 }
 
-.row-img-right, .row-img-left{
-    display: flex;
-    background-color: #222629;
-    min-width: 300px;
-}
-.word-left{
-    text-align: left;
-    max-width: 770px;
-    padding: 60px 80px;
-    margin: auto;
-}
-.word-left h3, .word-right h3{
-    font-size: 32px;
-    margin: 25px;
-    color: #fff;
-    
-}
-.word-left p,.word-right p{
-    font-size: 28px;
-    color:#6B6E70;
-}
-.row-img-right img, .row-img-left img{
-    min-width: 500px;
-    max-height: 600px;
-    margin: 0px;
-}
-.word-right{
-    text-align: left;
-    max-width: 770px;
-    padding: 60px 80px;
-    margin: auto;
-}
-
-
 .word-container{
     background-color: #fff;
     padding: 80px 200px;
@@ -106,4 +73,55 @@ body{
     padding-bottom: 20px;
     font-size: 60px;
     letter-spacing: 5px;
+}
+.row-img-right, .row-img-left{
+    display: flex;
+    background-color: #222629;
+    min-width: 300px;
+}
+.word-left{
+    text-align: left;
+    max-width: 770px;
+    padding: 60px 80px;
+    margin: auto;
+}
+.word-left h3, .word-right h3{
+    font-size: 32px;
+    margin: 25px 0;
+    color: #fff;
+    
+}
+.word-left p,.word-right p{
+    font-size: 24px;
+    color:#6B6E70;
+}
+.row-img-right img, .row-img-left img{
+    min-width: 500px;
+    max-height: 600px;
+    margin: 0px;
+}
+.word-right{
+    text-align: left;
+    max-width: 770px;
+    padding: 60px 80px;
+    margin: auto;
+}
+
+.details-btn{
+    display: inline-block;
+    color: #86C232;
+    border-radius: 50px;
+    width: 200px;
+    height: 58px;
+    text-align: center;
+    margin: 40px auto;
+    line-height: 50px;
+    border:3px solid #86C232;
+    font-size: 28px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.details-btn:hover {
+    background-color: #86C232;
+    color: #fff;
 }
