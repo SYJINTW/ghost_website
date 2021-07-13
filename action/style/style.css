@@ -1,0 +1,58 @@
+.counter-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1080px;
+  background: url("/action/img/action-main.png");
+  background-size: cover;
+  color: white;
+}
+
+.achieved {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.achieved .counter {
+  font-size: 80px;
+}
+.achieved .content {
+  font-size: 40px;
+}
+.donation-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1080px;
+  background-color: #222629;
+}
+
+.left-container {
+  width: 720px;
+  background: url("/wish/img/wish-second.png");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.left-container .content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.left-container .content p {
+  font-size: 40px;
+}
+
+#wishes {
+  font-size: 80px;
+}
+
+.right-container {
+}
