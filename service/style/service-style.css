@@ -22,16 +22,16 @@ body {
     content: '';
     width: 100%;
     background-image: url(../img/wave.svg);
-    height: 450px;
+    height: 490px;
     position: relative;
-    top: 700px;
+    top: 680px;
 }
 
 .col-1 {
     flex-basis: 40%;
     min-width: 330px;
-    position: absolute;
-    top: 450px;
+    position:absolute;
+    top:400px;
     right: 140px;
 }
 
@@ -70,8 +70,8 @@ body {
     color: #fff;
 }
 
-.container {
-    padding: 50 100px;
+.container{
+    padding: 50px 100px;
     background-color: #222629;
     text-align: center;
 }
@@ -79,8 +79,8 @@ body {
 .container h2 {
     color: #fff;
     font-size: 60px;
-    font: bold;
-    padding: 50px 0 50px;
+    font:bold;
+    padding: 0px 0 50px;
     letter-spacing: 5px;
 }
 
