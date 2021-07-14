@@ -90,12 +90,19 @@ body {
     font-size: 32px;
     font: bold;
     color: #fff;
-    margin: 10px 0;
+    margin: 10px 0 0;
     letter-spacing: 3px;
 }
 
+.row-2 .col-2 h5 {
+    font-size: 24px;
+    font-weight: normal;
+    color:#86C232;
+    margin:0;
+}
+
 .row-2 .col-2 p {
-    font-size: 20px;
+    font-size: 24px;
     color: #6B6E70;
     max-height: 300px;
     padding: 0 20px;
