@@ -38,7 +38,7 @@ body {
   margin: 15px 0 28px;
   padding: 0;
 }
-.btn {
+.schedule-btn {
   display: inline-block;
   background-color: #86c232;
   color: #fff;
@@ -52,7 +52,7 @@ body {
   letter-spacing: 5px;
   margin-right: 40px;
 }
-.btn:hover {
+.schedule-btn:hover {
   background-color: #61892f;
 }
 
