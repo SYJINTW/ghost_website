@@ -1,7 +1,7 @@
-const url = "https://ghost-test-server.herokuapp.com/api/item/food/";
-const getFood = document.querySelector("#getFood");
+const url = "https://ghost-test-server.herokuapp.com/api/item/book/";
+const getBook = document.querySelector("#getBook");
 const html = document.querySelector(".pageContainer");
-getFood.addEventListener("click", function () {
+getBook.addEventListener("click", function () {
   const church = document.querySelector("#viewClick");
   const churchName = church.innerHTML;
   fetch(url + `${churchName}`)
@@ -17,7 +17,7 @@ getFood.addEventListener("click", function () {
             <p>${churchName}</p>
           </div>
           <div class="link">
-            <a href="/food_location.html">Look for anthor church?</a>
+            <a href="/book_location.html">Look for anthor church?</a>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ getFood.addEventListener("click", function () {
             <p>${churchName}</p>
           </div>
           <div class="link">
-            <a href="/food_location.html">Look for anthor church?</a>
+            <a href="/book_location.html">Look for anthor church?</a>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@ getFood.addEventListener("click", function () {
       <div class="right-container">
         <div class="list-container">
           <div class="content content-row-1">
-            <p>ALL FOOD</p>
+            <p>ALL BOOK</p>
           </div>
           <div class="list">`;
       let index = 0;
