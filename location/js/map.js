@@ -19,13 +19,13 @@ function change() {
         zoomValue = 14;
         initMap();
     } else if (document.getElementById('location').innerText === "Taoyuan City") {
-        latValue = 24.972795991709425;
-        lngValue = 121.258160611598;
+        latValue = 24.9725967009792;
+        lngValue = 121.2600601261194;
         zoomValue = 14;
         initMap();
     } else if (document.getElementById('location').innerText === "Taichung City") {
-        latValue = 24.161599333581254;
-        lngValue = 120.66801474523636;
+        latValue = 24.158163114760736;
+        lngValue = 120.66845803945003;
         zoomValue = 14;
         initMap();
     } else if (document.getElementById('location').innerText === "Tainan City") {
@@ -81,8 +81,8 @@ function CenterControl(controlDiv, map) {
             center: { lat: latValue, lng: lngValue },
             zoom: zoomValue,
             disableDefaultUI: true,
-            scaleControl: false,
-            draggable: false,
+            scaleControl: true,
+            draggable: true,
             styles: [{
                 "elementType": "geometry",
                 "stylers": [
@@ -400,18 +400,6 @@ function CenterControl(controlDiv, map) {
             // 11
             '<h2 class="mapTitle">明穗教會</h2>' +
             '<span class="mapAddr">地址：235新北市中和區民享街90巷41號</span><br/>',
-            // // 12
-            // '<h2 class="mapTitle"></h2>'+
-            // '<span class="mapAddr">地址：</span><br/>',
-            // // 13
-            // '<h2 class="mapTitle"></h2>'+
-            // '<span class="mapAddr">地址：</span><br/>',
-            // // 14
-            // '<h2 class="mapTitle"></h2>'+
-            // '<span class="mapAddr">地址：</span><br/>',
-            // // 15
-            // '<h2 class="mapTitle"></h2>'+
-            // '<span class="mapAddr">地址：</span><br/>',
             
             // Taoyuan
             // 1
@@ -442,7 +430,7 @@ function CenterControl(controlDiv, map) {
             '<h2 class="mapTitle">耶穌基督後期聖徒教會</h2>'+
             '<span class="mapAddr">地址：320桃園市中壢區中北路二段412號</span><br/>',
             // 10
-            '<h2 class="mapTitle">中壢基督教國際教會Chunli International Christian Church</h2>'+
+            '<h2 class="mapTitle">中壢基督教國際教會</h2>'+
             '<span class="mapAddr">地址：320桃園市中壢區新興路102巷12號2樓</span><br/>',
 
             // Taichung
@@ -699,31 +687,7 @@ function CenterControl(controlDiv, map) {
             map: map,
             title: '明穗教會',
             icon: iconpng
-        },//{
-        // // 12
-        // position: {lat: , lng: },
-        // map: map,
-        // title:'',
-        // icon: "https://img.icons8.com/metro/32/ffffff/book-stack.png"
-        // },{
-        // // 13
-        // position: {lat: , lng: },
-        // map: map,
-        // title:'',
-        // icon: "https://img.icons8.com/metro/32/ffffff/book-stack.png"
-        // },{
-        // // 14
-        // position: {lat: , lng: },
-        // map: map,
-        // title:'',
-        // icon: "https://img.icons8.com/metro/32/ffffff/book-stack.png"
-        // },{
-        // // 15
-        // position: {lat: , lng: },
-        // map: map,
-        // title:'',
-        // icon: "https://img.icons8.com/metro/32/ffffff/book-stack.png"
-        // }, 
+        },
 
             // Taoyuan
         {
@@ -784,7 +748,7 @@ function CenterControl(controlDiv, map) {
             // 10
             position: {lat: 24.9530381289332, lng: 121.22494574544054},
             map: map,
-            title:'中壢基督教國際教會Chunli International Christian Church',
+            title:'中壢基督教國際教會',
             icon: "https://img.icons8.com/metro/32/ffffff/book-stack.png"
         },
 
