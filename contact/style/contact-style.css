@@ -11,24 +11,24 @@ body {
 .contact-row{
     display: flex;
     background-color: #222629;
-    padding: 100px 50px;
+    padding: 30px 50px;
 }
 .contact-mes{
     display: inline-block;
     padding: 0 60px 50px;
-    float: left;
     background-color: #222629;
     width: 50%;
     margin: auto 0;
+    /* border-right: 5px solid #ddd;  */
 }
 .contact-mes h3{
     color:#fff;
     font-size: 60px;
-    padding-bottom: 50px;
 }
 .contact-mes p{
     color:#909090;
     font-size: 24px;
+    padding-top: 50px;
 }
 
 .contact-list{
@@ -36,7 +36,7 @@ body {
     text-align: center;
     align-items: center;
     margin: 0 auto;
-    /* border: 5px solid #ddd; */
+    padding: 0 50px;
 }
 .contact-list h2{
     color:#86C232;
@@ -109,7 +109,6 @@ textarea{
     background-color: #86C232;
     color: #fff;
 }
-
 
 ::placeholder{
     color:#909090;

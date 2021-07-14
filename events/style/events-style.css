@@ -134,6 +134,7 @@ body {
     font-size: 28px;
     text-decoration: none;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .details-btn:hover {
