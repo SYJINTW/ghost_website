@@ -1,21 +1,21 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .row-1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 1080px;
-    background: url("../img/book-main.jpg");
-    background-size: cover;
-    text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 1080px;
+  background: url("../img/book-main.jpg");
+  background-size: cover;
+  text-align: right;
 }
 
 /* .row-1::after {
@@ -28,212 +28,212 @@ body {
 } */
 
 .col-1 {
-    flex-basis: 40%;
-    min-width: 330px;
-    position:absolute;
-    top:400px;
-    right: 120px;
-    padding: 0 20px;
+  flex-basis: 40%;
+  min-width: 330px;
+  position: absolute;
+  top: 400px;
+  right: 120px;
+  padding: 0 20px;
 }
 
 .col-1 h1 {
-    font-size: 80px;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-    letter-spacing: 5px;
+  font-size: 80px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 5px;
 }
 
 .col-1 p {
-    font-size: 24px;
-    color: #fff;
-    max-width: 800px;
-    margin: 15px 0 50px;
-    padding: 0;
+  font-size: 24px;
+  color: #fff;
+  max-width: 800px;
+  margin: 15px 0 50px;
+  padding: 0;
 }
 
 .hollow-btn {
-    display: inline-block;
-    color: #86C232;
-    border-radius: 50px;
-    font-size: 24px;
-    text-decoration: none;
-    width: 330px;
-    height: 76px;
-    text-align: center;
-    line-height: 70px;
-    letter-spacing: 5px;
-    border: 5px solid #86C232;
-    margin:0 50px;
+  display: inline-block;
+  color: #86c232;
+  border-radius: 50px;
+  font-size: 24px;
+  text-decoration: none;
+  width: 330px;
+  height: 76px;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: 5px;
+  border: 5px solid #86c232;
+  margin: 0 50px;
 }
 
 .hollow-btn:hover {
-    border: 5px solid #61892F;
-    color: #61892F;
-    margin:0 50px;
+  border: 5px solid #61892f;
+  color: #61892f;
+  margin: 0 50px;
 }
 .btn {
-    display: inline-block;
-    background-color: #86C232;
-    color: #fff;
-    border-radius: 50px;
-    font-size: 24px;
-    text-decoration: none;
-    width: 330px;
-    height: 76px;
-    text-align: center;
-    line-height: 70px;
-    letter-spacing: 5px;
-    border: 5px solid #86C232;
+  display: inline-block;
+  background-color: #86c232;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 24px;
+  text-decoration: none;
+  width: 330px;
+  height: 76px;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: 5px;
+  border: 5px solid #86c232;
 }
 
 .btn:hover {
-    border: 5px solid #61892F;
-    color: #fff;
-    background-color: #61892F;
+  border: 5px solid #61892f;
+  color: #fff;
+  background-color: #61892f;
 }
 
-
-.word-container{
-    background-color: #fff;
-    padding: 80px 200px;
+.word-container {
+  background-color: #fff;
+  padding: 80px 200px;
 }
 
-.word-container .word{
-    align-items: center;
-    max-width: 1100px;
-    margin: 0px auto;
-    padding: 50px 0;
-    font-size: 24px;
-    text-align: center;
+.word-container .word {
+  align-items: center;
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 50px 0;
+  font-size: 24px;
+  text-align: center;
 }
-.word h2{
-    padding-bottom: 20px;
-    font-size: 60px;
-    letter-spacing: 5px;
-    text-align: center;
+.word h2 {
+  padding-bottom: 20px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-align: center;
 }
-.word p{
-    padding-bottom: 15px;
-    text-align: left;
+.word p {
+  padding-bottom: 15px;
+  text-align: left;
 }
 
 .word .word-btn {
-    display: inline-block;
-    background-color: #86C232;
-    color: #fff;
-    border-radius: 50px;
-    font-size: 28px;
-    text-decoration: none;
-    width: 300px;
-    height: 60px;
-    text-align: center;
-    line-height: 50px;
-    letter-spacing: 5px;
-    border: 5px solid #86C232;
-    margin: 50px auto;
-    text-transform:uppercase;
+  display: inline-block;
+  background-color: #86c232;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 28px;
+  text-decoration: none;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 5px;
+  border: 5px solid #86c232;
+  margin: 50px auto;
+  text-transform: uppercase;
 }
 
-.word .word-btn:hover{
-    border: 5px solid #61892F;
-    color: #fff;
-    background-color:#61892F;
-    margin: 50px auto;
+.word .word-btn:hover {
+  border: 5px solid #61892f;
+  color: #fff;
+  background-color: #61892f;
+  margin: 50px auto;
 }
 
-
-.wishing-list{
-    background-image: url("../img/book-bg.jpg");
-    width: 100%;
-    height: 1000px;
-    text-align: center;
-    align-items: center;
-    padding: 100px 0;
+.wishing-list {
+  background-image: url("../img/book-bg.jpg");
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  align-items: center;
+  padding: 100px 0;
 }
-.wishing-list h2{
-    color:#86C232;
-    padding: 20px 0;
-    letter-spacing: 5px;
-    font-size: 40px;
-    align-items: center;
+.wishing-list h2 {
+  color: #86c232;
+  padding: 20px 0;
+  letter-spacing: 5px;
+  font-size: 60px;
+  align-items: center;
 }
-.list-row{
-    display: grid;
-    flex:1;
-    max-width: 500px;
-    padding: 20px;
-    margin: 0px auto;
+.list-row {
+  display: grid;
+  flex: 1;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0px auto;
 }
-.field{
-    display: inline-block;
-    max-width: 450px;
-    height: 54px;
-    padding: 5px 10px;
-    outline: none;
-    background-color:rgba(107, 110, 112, 0.904);
-    transition: 0.3s;
-    margin: 10px 0px 15px;
-    border-radius: 15px;
-    font-size: 22px;
-    border: 3px solid #909090;
+.field {
+  display: inline-block;
+  max-width: 450px;
+  height: 54px;
+  padding: 5px 10px;
+  outline: none;
+  background-color: rgba(107, 110, 112, 0.904);
+  transition: 0.3s;
+  margin: 10px 0px 15px;
+  border-radius: 15px;
+  font-size: 22px;
+  border: 3px solid #909090;
 }
-.field:hover{
-    background-color: #474B4F;
-    color:#fff;
+.field:hover {
+  background-color: #474b4f;
+  color: #fff;
 }
-.field:active, .field:focus{
-    background-color: #474B4F;
-    border: 3px solid #86C232;
-    color:#fff;
-    padding-left:15px;
+.field:active,
+.field:focus {
+  background-color: #474b4f;
+  border: 3px solid #86c232;
+  color: #fff;
+  padding-left: 15px;
 }
-.field:checked{
-    color:#fff;
-    padding-left:15px;
+.field:checked {
+  color: #fff;
+  padding-left: 15px;
 }
-input, select, textarea{ 
-    color: #fff; 
-} 
-.list-row p{
-    font-size: 28px;
-    color:#fff;
-    text-align: left;
-    text-transform: capitalize;
+input,
+select,
+textarea {
+  color: #fff;
 }
-.list-row .send-btn{
-    display: inline-block;
-    color: #86C232;
-    border-radius: 50px;
-    width: 50%;
-    height: 58px;
-    text-align: center;
-    margin: 35px auto;
-    line-height: 50px;
-    border:3px solid #86C232;
-    font-size: 28px;
-    text-decoration: none;
-    letter-spacing: 3px;
+.list-row p {
+  font-size: 28px;
+  color: #fff;
+  text-align: left;
+  text-transform: capitalize;
+}
+.list-row .send-btn {
+  display: inline-block;
+  color: #86c232;
+  border-radius: 50px;
+  width: 50%;
+  height: 58px;
+  text-align: center;
+  margin: 35px auto;
+  line-height: 50px;
+  border: 3px solid #86c232;
+  font-size: 28px;
+  text-decoration: none;
+  letter-spacing: 3px;
 }
 .send-btn:hover {
-    background-color: #86C232;
-    color: #fff;
+  background-color: #86c232;
+  color: #fff;
 }
 
+::placeholder {
+  color: #909090;
+  padding-left: 5px;
+}
+::-moz-placeholder {
+  color: #909090;
+  padding-left: 5px;
+}
+::-webkit-input-placeholder {
+  color: #909090;
+  padding-left: 5px;
+}
 
-::placeholder{
-    color:#909090;
-    padding-left:5px;
-}
-::-moz-placeholder{
-    color:#909090;
-    padding-left:5px;
-}
-::-webkit-input-placeholder{
-    color:#909090;
-    padding-left:5px;
-}
-
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
