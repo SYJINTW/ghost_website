@@ -40,7 +40,18 @@ const itemValidation = data => {
   return schema.validate(data);
 };
 
+const feedbackValidation = data => {
+  const schema = Joi.object({
+    name: Joi.string().required(),
+    email: Joi.string().email(),
+    subject: Joi.string().required(),
+    message: Joi.string().required(),
+  });
+  return schema.validate(data);
+};
+
 module.exports.registerValidation = registerValidation;
 module.exports.loginValidation = loginValidation;
 module.exports.wishingValidation = wishingValidation;
 module.exports.itemValidation = itemValidation;
+module.exports.feedbackValidation = feedbackValidation;

@@ -20,7 +20,21 @@ const userSchema = new mongoose.Schema({
     minLength: 6,
     maxLength: 1024,
   },
+  role: {
+    type: String,
+    required: true,
+    enum: ["admin", "client"],
+    default: "client",
+  },
 });
+
+userSchema.methods.isClient = function () {
+  return this.role === "client";
+};
+
+userSchema.methods.isAdmin = function () {
+  return this.role === "admin";
+};
 
 userSchema.pre("save", async function (next) {
   if (this.isModified("password") || this.isNew) {

@@ -25,6 +25,28 @@ router.get("/", (req, res) => {
     });
 });
 
+router.get("/food/:church", (req, res) => {
+  const { church } = req.params;
+  Item.find({ type: "Food", church: `${church}` })
+    .then(item => {
+      res.status(200).send(item);
+    })
+    .catch(err => {
+      res.status(500).send(err);
+    });
+});
+
+router.get("/book/:church", (req, res) => {
+  const { church } = req.params;
+  Item.find({ type: "Book", church: `${church}` })
+    .then(item => {
+      res.status(200).send(item);
+    })
+    .catch(err => {
+      res.status(500).send(err);
+    });
+});
+
 router.post("/", async (req, res) => {
   const { error } = itemValidation(req.body);
   if (error) return res.status(400).send(error.details[0].message);

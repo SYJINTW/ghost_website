@@ -28,10 +28,12 @@ app.use(cors());
 const authRoute = require("./routes").authRoute;
 const Wishing = require("./routes").wishingRoute;
 const itemRoute = require("./routes").itemRoute;
+const feedbackRoute = require("./routes").feedbackRoute;
 app.use("/api/auth", authRoute);
 app.use("/api/wishing", Wishing);
-// app.use("/api/food", passport.authenticate("jwt", { session: false }), Wishing);
+// passport.authenticate("jwt", { session: false })
 app.use("/api/item", itemRoute);
+app.use("/api/feedback", feedbackRoute);
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
