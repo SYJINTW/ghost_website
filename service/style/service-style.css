@@ -92,16 +92,16 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #222629;
-    padding: 50px 200px;
+    padding: 50px 100px;
     text-align: center;
 }
 
 .row-3 .col-3 {
-    flex-basis: 30%;
+    flex-basis: 33%;
     transition: transform 0.5s;
-    width: 500px;
-    height: auto;
-    /*border: 5px solid #86C232 ;*/
+    width: 550px;
+    height: 550px;
+    /* border: 5px solid #86C232 ; */
     align-items: center;
     padding: 0px 30px;
 }
@@ -119,10 +119,13 @@ body {
     letter-spacing: 3px;
 }
 
+.intro{
+    height: 220px;
+}
 .row-3 .col-3 p {
     font-size: 24px;
     color: #6B6E70;
-    height: 200px;
+    padding-bottom: 10px;
 }
 
 .row-3 .col-3 .small-btn {
@@ -136,7 +139,7 @@ body {
     letter-spacing: 3px;
     text-decoration: none;
     line-height: 76px;
-    margin: 40px 0;
+    margin: 15px 0 ;
 }
 
 .row-3 .col-3 .small-btn:hover {
