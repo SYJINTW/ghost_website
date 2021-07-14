@@ -8,6 +8,9 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 .row-1 {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +39,7 @@ body {
   color: #fff;
   max-width: 800px;
   margin: 15px 0 28px;
-  padding: 0;
+  padding: 0 0 10px;
 }
 .schedule-btn {
   display: inline-block;
@@ -50,7 +53,6 @@ body {
   text-align: center;
   line-height: 76px;
   letter-spacing: 5px;
-  margin-right: 40px;
 }
 .schedule-btn:hover {
   background-color: #61892f;
@@ -71,8 +73,8 @@ body {
 }
 
 .hollow-btn:hover {
-  background-color: #86c232;
-  color: #fff;
+  border: 5px solid #61892F;
+  color: #61892F;
 }
 
 .word-container {
