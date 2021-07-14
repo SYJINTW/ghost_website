@@ -82,7 +82,7 @@ function CenterControl(controlDiv, map) {
             zoom: zoomValue,
             disableDefaultUI: true,
             scaleControl: true,
-            draggable: true,
+            draggable: false,
             styles: [{
                 "elementType": "geometry",
                 "stylers": [
