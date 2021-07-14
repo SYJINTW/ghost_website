@@ -25,8 +25,9 @@ html{
     flex-basis: 40%;
     min-width: 330px;
     position: absolute;
-    top: 450px;
+    top: 400px;
     right: 140px;
+    padding: 0 20px;
 }
 
 .col-1 h1 {

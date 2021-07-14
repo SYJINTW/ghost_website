@@ -24,7 +24,7 @@ html{
     min-width: 330px;
     position:absolute;
     top:400px;
-    right: 120px;
+    right: 140px;
     padding: 0 20px;
 }
 
@@ -40,7 +40,7 @@ html{
     font-size: 24px;
     color: #fff;
     max-width: 800px;
-    margin: 15px 0 50px;
+    margin: 15px 0 28px;
     padding: 0;
 }
 
@@ -50,10 +50,10 @@ html{
     border-radius: 50px;
     font-size: 24px;
     text-decoration: none;
-    width: 330px;
+    width: 362px;
     height: 76px;
     text-align: center;
-    line-height: 70px;
+    line-height: 66px;
     letter-spacing: 5px;
     border: 5px solid #86C232;
 
@@ -70,7 +70,7 @@ html{
     border-radius: 50px;
     font-size: 24px;
     text-decoration: none;
-    width: 330px;
+    width: 362px;
     height: 76px;
     text-align: center;
     line-height: 70px;
