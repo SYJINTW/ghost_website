@@ -17,7 +17,7 @@ getBook.addEventListener("click", function () {
             <p>${churchName}</p>
           </div>
           <div class="link">
-            <a href="/book_location.html">Look for anthor church?</a>
+            <a href="/book_location.html">Back to search page</a>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ getBook.addEventListener("click", function () {
             <p>${churchName}</p>
           </div>
           <div class="link">
-            <a href="/book_location.html">Look for anthor church?</a>
+            <a href="/book_location.html">Back to search page</a>
           </div>
         </div>
       </div>
