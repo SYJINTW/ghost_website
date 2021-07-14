@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact-row{
+    display: flex;
+    background-color: #222629;
+    padding: 100px 50px;
+}
+.contact-mes{
+    display: inline-block;
+    padding: 0 60px 50px;
+    float: left;
+    background-color: #222629;
+    width: 50%;
+    margin: auto 0;
+}
+.contact-mes h3{
+    color:#fff;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+.contact-mes p{
+    color:#909090;
+    font-size: 24px;
+}
+
+.contact-list{
+    background-color: #222629;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 5px solid #ddd; */
+}
+.contact-list h2{
+    color:#86C232;
+    padding: 10px 0;
+    letter-spacing: 5px;
+    font-size: 56px;
+    align-items: center;
+}
+.list-row{
+    display: grid;
+    flex:1;
+    max-width: 500px;
+    padding: 0 20px;
+    margin: 0px auto;
+}
+.field{
+    display: inline-block;
+    max-width: 365px;
+    height: 44px;
+    padding: 5px 10px;
+    outline: none;
+    background-color:rgba(107, 110, 112, 0.904);
+    transition: 0.3s;
+    margin: 10px 0px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 3px solid #909090;
+}
+.field:hover{
+    background-color: #474B4F;
+    color:#fff;
+}
+.field:active, .field:focus{
+    background-color: #474B4F;
+    border: 3px solid #86C232;
+    color:#fff;
+    padding-left:15px;
+}
+.field:checked{
+    color:#fff;
+    padding-left:15px;
+}
+input, select, textarea{ 
+    color: #fff; 
+} 
+textarea{
+    min-height: 200px;
+}
+.list-row p{
+    font-size: 24px;
+    color:#fff;
+    text-align: left;
+    text-transform: capitalize;
+}
+.list-row .send-btn{
+    display: inline-block;
+    color: #86C232;
+    border-radius: 50px;
+    width: 362px;
+    height: 58px;
+    text-align: center;
+    margin: 35px auto;
+    line-height: 50px;
+    border:3px solid #86C232;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.send-btn:hover {
+    background-color: #86C232;
+    color: #fff;
+}
+
+
+::placeholder{
+    color:#909090;
+    padding-left:5px;
+}
+::-moz-placeholder{
+    color:#909090;
+    padding-left:5px;
+}
+::-webkit-input-placeholder{
+    color:#909090;
+    padding-left:5px;
+}
