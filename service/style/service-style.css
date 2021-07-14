@@ -18,7 +18,7 @@ body {
     text-align: right;
 }
 
-.row-1::after {
+/* .row-1::after {
     content: '';
     width: 100%;
     background-image: url(../img/wave.svg);
@@ -26,7 +26,7 @@ body {
     position: absolute;
     bottom: -150px;
     pointer-events: none;
-}
+} */
 
 .col-1 {
     flex-basis: 40%;
@@ -34,6 +34,7 @@ body {
     position:absolute;
     top:400px;
     right: 140px;
+    padding: 0 20px;
 }
 
 .col-1 h1 {
