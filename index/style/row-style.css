@@ -64,19 +64,28 @@ body {
     display: flex;
     background-color: #222629;
     min-width: 300px;
+   
 }
 
 .word-left {
     text-align: left;
-    min-width: 450px;
+    min-width: 600px;
     padding: 60px 80px;
     margin: 0;
+    width: 42%;
+}
+.word-right {
+    text-align: left;
+    min-width: 600px;
+    padding: 60px 80px;
+    margin: 0;
+    width: 42%;
 }
 
 .word-left h3,
 .word-right h3 {
     font-size: 32px;
-    padding: 25px;
+    padding: 25px 0;
     color: #fff;
 }
 
@@ -90,14 +99,9 @@ body {
 .row-img-left img {
     padding: 0;
     max-height: 600px;
+    width: 58%;
 }
 
-.word-right {
-    text-align: left;
-    max-width: 770px;
-    padding: 60px 80px;
-    margin: 0;
-}
 
 .word-container {
     background-color: #fff;
