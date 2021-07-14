@@ -106,16 +106,16 @@ body {
 
 .container{
     padding: 50px 100px;
-    background-color: #61892F;
+    background-color: #222629;
     align-items: center;
     text-align: center;
 }
 
 .container h2 {
-    color: #fff;
+    color: #86C232;
     font-size: 60px;
     font:bold;
-    padding: 0px 0 50px;
+    padding: 20px 0px 25px;
     letter-spacing: 5px;
 }
 
@@ -124,7 +124,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #61892F;
+    background-color: #222629;
     padding: 50px 50px;
     text-align: center;
 }
