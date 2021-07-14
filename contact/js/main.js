@@ -1,5 +1,5 @@
 const sendBtn = document.querySelector("#sendBtn");
-const url = "https://ghost-test-server.herokuapp.com/api/wishing";
+const url = "https://ghost-test-server.herokuapp.com/api/feedback";
 
 sendBtn.addEventListener("click", e => {
   e.preventDefault();
