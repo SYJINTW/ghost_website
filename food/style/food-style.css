@@ -56,7 +56,7 @@ html{
     line-height: 70px;
     letter-spacing: 5px;
     border: 5px solid #86C232;
-    margin:0 25px;
+
 }
 
 .hollow-btn:hover {
@@ -75,7 +75,7 @@ html{
     text-align: center;
     line-height: 70px;
     letter-spacing: 5px;
-    margin:0 25px;
+    margin-right:50px;
     border: 5px solid #86C232;
 }
 
@@ -83,7 +83,7 @@ html{
     border: 5px solid #61892F;
     color: #fff;
     background-color: #61892F;
-    margin:0 25px;
+    margin-right:50px;
 }
 
 .word-container{
@@ -94,14 +94,19 @@ html{
 .word-container .word{
     text-align: left;
     align-items: center;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0px auto;
     padding: 50px 0;
+    font-size: 24px;
 }
 .word h2{
     padding-bottom: 20px;
-    font-size: 40px;
+    font-size: 60px;
+    letter-spacing: 5px;
     text-align: center;
+}
+.word p{
+    padding-bottom: 15px;
 }
 
 
@@ -114,7 +119,7 @@ html{
     color: #fff;
     font-size: 60px;
     font:bold;
-    padding: 0px 0 50px;
+    padding: 30px 0 50px;
     letter-spacing: 5px;
 }
 .row-3 {
@@ -123,22 +128,25 @@ html{
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #222629;
-    padding: 50px 200px;
+    padding: 50px 100px;
     text-align: center;
 }
+
 .row-3 .col-3 {
-    flex-basis: 30%;
+    flex-basis: 33%;
     transition: transform 0.5s;
-    width: 500px;
-    height: auto;
-    /*border: 5px solid #86C232 ;*/
+    width: 550px;
+    height: 550px;
+    /* border: 5px solid #86C232 ; */
     align-items: center;
-    padding: 0px 30px;
+    padding: 0px 35px;
 }
+
 .row-3 .col-3 img {
     width: 150px;
     border-radius: 50%;
 }
+
 .row-3 .col-3 h6 {
     font-size: 32px;
     font: bold;
@@ -146,10 +154,14 @@ html{
     margin: 10px 0;
     letter-spacing: 3px;
 }
+
+.intro{
+    height: 220px;
+}
 .row-3 .col-3 p {
     font-size: 24px;
     color: #6B6E70;
-    height: 200px;
+    padding-bottom: 10px;
 }
 
 
