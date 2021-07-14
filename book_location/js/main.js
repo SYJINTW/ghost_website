@@ -61,8 +61,8 @@ getBook.addEventListener("click", function () {
                     <img src="${data[index].image}" alt="" />
                   </div>
                   <div class="content">
-                    <p>NAME: ${data[index].name}</p>
-                    <p class="grayContent">Content: ${data[index].content}</p>
+                    <p>${data[index].name}</p>
+                    <p class="grayContent">${data[index].content}</p>
                   </div>
                 </div>
               </div>
@@ -89,8 +89,8 @@ getBook.addEventListener("click", function () {
                     <img src="${data[index].image}" alt="" />
                   </div>
                   <div class="content">
-                    <p>NAME: ${data[index].name}</p>
-                    <p class="grayContent">Content: ${data[index].content}</p>
+                    <p>${data[index].name}</p>
+                    <p class="grayContent">${data[index].content}</p>
                   </div>
                 </div>
               </div>

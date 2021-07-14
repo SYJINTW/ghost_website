@@ -61,8 +61,8 @@ getFood.addEventListener("click", function () {
                     <img src="${data[index].image}" alt="" />
                   </div>
                   <div class="content">
-                    <p>NAME: ${data[index].name}</p>
-                    <p class="grayContent">Content: ${data[index].content}</p>
+                    <p>${data[index].name}</p>
+                    <p class="grayContent">${data[index].content}</p>
                   </div>
                 </div>
               </div>
@@ -72,8 +72,8 @@ getFood.addEventListener("click", function () {
                   <img src="${data[index + 1].image}" alt="" />
                   </div>
                   <div class="content">
-                  <p>NAME: ${data[index + 1].name}</p>
-                  <p class="grayContent">Content: ${data[index + 1].content}</p>
+                  <p>${data[index + 1].name}</p>
+                  <p class="grayContent">${data[index + 1].content}</p>
                   </div>
                 </div>
               </div>
@@ -89,8 +89,8 @@ getFood.addEventListener("click", function () {
                     <img src="${data[index].image}" alt="" />
                   </div>
                   <div class="content">
-                    <p>NAME: ${data[index].name}</p>
-                    <p class="grayContent">Content: ${data[index].content}</p>
+                    <p>${data[index].name}</p>
+                    <p class="grayContent">${data[index].content}</p>
                   </div>
                 </div>
               </div>
