@@ -2,44 +2,49 @@
 <html lang="en">
   <head>
     <title>Book Location</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="book_location/style/header-footer-style.css">
-    <link rel="stylesheet" href="book_location/style/row-style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="book_location/style/header-footer-style.css" />
+    <link rel="stylesheet" href="book_location/style/row-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="book_location/style/food_location.css" />
+    <link rel="stylesheet" href="/get_food_book/style/style.css" />
   </head>
   <body>
     <!-- Header -->
     <div class="navbar">
       <div class="logo">
-          <img src="global/img/logo2-white.svg" alt="Logo">
+        <img src="global/img/logo2-white.svg" alt="Logo" />
       </div>
       <nav>
-          <ul id="MenuItems">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="events.html">EVENTS</a></li>
-              <li><a class="active" href="service.html">SERVICE</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
-              <li><a href="about.html">ABOUT US</a></li>
-              <li><a class="action" href="action.html">TAKE ACTION</a></li>
-          </ul>
+        <ul id="MenuItems">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a class="active" href="service.html">SERVICE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a class="action" href="action.html">TAKE ACTION</a></li>
+        </ul>
       </nav>
       <div class="login">
-          <img src="global/img/login-icon-white.svg" alt="Login">
-      </div>  
+        <img src="global/img/login-icon-white.svg" alt="Login" />
+      </div>
     </div>
-    
+
     <!-- scroll list -->
     <div class="pageContainer">
       <p class="title_select">Select Location</p>
-      <div>
-        
-      </div>
+      <div></div>
       <div class="container">
         <div class="left">
           <div class="select-box">
@@ -48,68 +53,61 @@
                 <input type="city" class="city" id="taipei" name="category" />
                 <label for="taipei">Taipei City</label>
               </div>
-  
-              <div class="option" >
-                <input type="city" class="city" id="xinpei" name="category"/>
+
+              <div class="option">
+                <input type="city" class="city" id="xinpei" name="category" />
                 <label for="xinpei">New Taipei City</label>
               </div>
-  
-              <div class="option" >
+
+              <div class="option">
                 <input type="city" class="city" id="taoyuan" name="category" />
                 <label for="taoyuan">Taoyuan City</label>
               </div>
-  
-              <div class="option" >
+
+              <div class="option">
                 <input type="city" class="city" id="taichung" name="category" />
                 <label for="taichung">Taichung City</label>
               </div>
-  
+
               <div class="option">
                 <input type="city" class="city" id="tainan" name="category" />
                 <label for="tainan">Tainan City</label>
               </div>
-  
+
               <div class="option">
                 <input type="city" class="city" id="kaohsiung" name="category" />
                 <label for="kaohsiung">Kaohsiung City</label>
               </div>
             </div>
-              
-            <div class="selected" id="location">
-              Location
-            </div>
+
+            <div class="selected" id="location">Location</div>
           </div>
-          <div class="box" id="viewClick">
-            Addr
-          </div>
+          <div class="box" id="viewClick">Addr</div>
 
           <!-- button -->
-        <a class="btn" href="#">GET BOOK</a>
-
+          <a class="btn" href="#" id="getBook">GET BOOK</a>
         </div>
-       </div>
-        
- 
+      </div>
+
       <!-- map -->
       <div class="center">
         <div id="map"></div>
       </div>
 
       <script src="/book_location/js/map.js"></script>
-      <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI2xSJtMpDx--RdHTS26VSSF4s4eaq4_g&callback=initMap">
-      </script>
-
+      <script
+        async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI2xSJtMpDx--RdHTS26VSSF4s4eaq4_g&callback=initMap"
+      ></script>
     </div>
-  
-
   </body>
-<!-- Footer -->
-<footer>
-  <div class="logo">
-    <img src="global/img/logo2-white.svg" alt="Logo">
-  </div>
-  <p>Copyright © 2021 GHoST</p>
-</footer>
-  
+  <!-- Footer -->
+  <footer>
+    <div class="logo">
+      <img src="global/img/logo2-white.svg" alt="Logo" />
+    </div>
+    <p>Copyright © 2021 GHoST</p>
+  </footer>
+  <script src="/book_location/js/main.js"></script>
 </html>
