@@ -27,11 +27,11 @@ body {
 }
 
 .col-1 h1 {
-    font-size: 80px;
+    font-size: 100px;
     color: #fff;
-    padding: 0;
+    padding: 20px 0;
     margin: 0;
-    letter-spacing: 7px;
+    letter-spacing: 10px;
 }
 
 .col-1 p {
@@ -72,28 +72,27 @@ body {
     text-align: left;
     min-width: 600px;
     padding: 60px 80px;
-    margin: 0;
+    margin: auto 0;
     width: 42%;
 }
 .word-right {
     text-align: left;
     min-width: 600px;
     padding: 60px 80px;
-    margin: 0;
+    margin: auto 0;
     width: 42%;
 }
 
 .word-left h3,
 .word-right h3 {
     font-size: 32px;
-    padding: 25px 0;
+    padding: 0 0 25px;
     color: #fff;
     letter-spacing: 3px;
 }
 .word-left h3::first-letter,
 .word-right h3::first-letter{
-    font-size: 60px;
-    letter-spacing: 3px;
+    font-size: 80px;
 }
 
 .word-left p,
