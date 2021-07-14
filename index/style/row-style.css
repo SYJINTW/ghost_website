@@ -31,6 +31,7 @@ body {
     color: #fff;
     padding: 0;
     margin: 0;
+    letter-spacing: 7px;
 }
 
 .col-1 p {
@@ -87,6 +88,12 @@ body {
     font-size: 32px;
     padding: 25px 0;
     color: #fff;
+    letter-spacing: 3px;
+}
+.word-left h3::first-letter,
+.word-right h3::first-letter{
+    font-size: 60px;
+    letter-spacing: 3px;
 }
 
 .word-left p,
@@ -121,4 +128,9 @@ body {
     padding-bottom: 20px;
     font-size: 60px;
     letter-spacing: 5px;
+}
+
+.word p{
+    padding-bottom: 10px;
+    text-align: left;
 }
