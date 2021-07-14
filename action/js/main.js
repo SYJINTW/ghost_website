@@ -42,7 +42,8 @@ function loadData(data, index) {
   let html = "";
   let htmlSegment = "";
   let listener = [];
-  for (let i = 0; i < 5 && index < data.length; i++, index++) {
+  let j = 0;
+  for (; j < 5 && index < data.length; j++, index++) {
     htmlSegment += `<div class="list-row">
             <div class="list-row-item">
             <div class="list-item" id="title">
@@ -61,12 +62,11 @@ function loadData(data, index) {
   const list = document.querySelector(".list");
   list.innerHTML = html;
   const donate = document.querySelectorAll(".donate");
-  console.log(donate);
   for (let i = 0; i < donate.length; i++) {
     let donateBtn = donate[i];
     donateBtn.addEventListener("click", e => {
       e.preventDefault();
-      const _id = data[index + i - 5]._id;
+      const _id = data[index + i - j]._id;
       fetch(url + `/${_id}`, {
         method: "DELETE",
       });
