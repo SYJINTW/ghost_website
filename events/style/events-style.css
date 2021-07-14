@@ -151,3 +151,30 @@ html{
     background-color: #86C232;
     color: #fff;
 }
+
+
+.img-container{
+    display: flex;
+    background-color: #6B6E70;
+    padding: 50px;
+}
+.img-slider{
+    margin: 0 auto;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-3{
+    transition: transform 0.5s;
+}
+.img-slider img{
+    max-width: 400px;
+    flex-basis:30%;
+    min-width: 250px;
+    margin: 40px;
+    padding: 20px;
+}
+.img-3:hover{
+    transform: translateY(-10px);
+}
