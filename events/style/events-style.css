@@ -1,200 +1,199 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 .row-1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 1080px;
-    background: url("../img/events-main.jpg");
-    background-size: cover;
-    text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 1080px;
+  background: url("../img/events-main.jpg");
+  background-size: cover;
+  text-align: right;
 }
 
 .col-1 {
-    flex-basis: 40%;
-    min-width: 330px;
-    position: absolute;
-    top: 400px;
-    right: 140px;
-    padding: 0 20px;
+  flex-basis: 40%;
+  min-width: 330px;
+  position: absolute;
+  top: 400px;
+  right: 140px;
+  padding: 0 20px;
 }
 
 .col-1 h1 {
-    font-size: 80px;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-    letter-spacing: 5px;
+  font-size: 80px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 5px;
 }
 
 .col-1 p {
-    font-size: 24px;
-    color: #fff;
-    max-width: 800px;
-    margin: 15px 0 28px;
-    padding: 0;
+  font-size: 24px;
+  color: #fff;
+  max-width: 800px;
+  margin: 15px 0 28px;
+  padding: 0;
 }
 
 .btn {
-    display: inline-block;
-    border: 5px solid #86C232;
-    color:#86C232;
-    border-radius: 50px;
-    font-size: 24px;
-    text-decoration: none;
-    width: 362px;
-    height: 76px;
-    text-align: center;
-    line-height: 66px;
-    letter-spacing: 5px;
+  display: inline-block;
+  border: 5px solid #86c232;
+  color: #86c232;
+  border-radius: 50px;
+  font-size: 24px;
+  text-decoration: none;
+  width: 362px;
+  height: 76px;
+  text-align: center;
+  line-height: 66px;
+  letter-spacing: 5px;
 }
 
 .btn:hover {
-    /* background-color: #61892F; */
-    border: 5px solid #86C232;
-    background-color: #86C232;
-    color: #fff;
+  /* background-color: #61892F; */
+  border: 5px solid #86c232;
+  background-color: #86c232;
+  color: #fff;
 }
 
 .word-container {
-    background-color: #fff;
-    padding: 80px 200px;
+  background-color: #fff;
+  padding: 80px 200px;
 }
 
 .word-container .word {
-    text-align: left;
-    align-items: center;
-    max-width: 1100px;
-    margin: 0px auto;
-    padding: 50px 0;
-    font-size: 24px;
+  text-align: left;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 50px 0;
+  font-size: 24px;
 }
 
 .word h2 {
-    padding-bottom: 20px;
-    font-size: 60px;
-    letter-spacing: 5px;
-    text-align: center;
+  padding-bottom: 20px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-align: center;
 }
 .word p {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .row-img-right,
 .row-img-left {
-    display: flex;
-    background-color: #222629;
-    min-width: 300px;
+  display: flex;
+  background-color: #222629;
+  min-width: 300px;
 }
 
 .word-left {
-    text-align: left;
-    max-width: 770px;
-    padding: 60px 80px;
-    margin: auto;
+  text-align: left;
+  max-width: 770px;
+  padding: 60px 80px;
+  margin: auto;
 }
 
 .word-left h3,
 .word-right h3 {
-    font-size: 32px;
-    margin: 25px 0;
-    color: #fff;
+  font-size: 32px;
+  margin: 25px 0;
+  color: #fff;
 }
 
 .word-left p,
 .word-right p {
-    font-size: 24px;
-    color: #6B6E70;
+  font-size: 24px;
+  color: #6b6e70;
 }
 
 .row-img-right img,
 .row-img-left img {
-    min-width: 500px;
-    max-height: 600px;
-    margin: 0px;
+  min-width: 500px;
+  max-height: 600px;
+  margin: 0px;
 }
 
 .word-right {
-    text-align: left;
-    max-width: 770px;
-    padding: 60px 79px;
-    margin: auto;
+  text-align: left;
+  max-width: 770px;
+  padding: 60px 79px;
+  margin: auto;
 }
 
 .details-btn {
-    display: inline-block;
-    color: #86C232;
-    border-radius: 50px;
-    width: 200px;
-    height: 58px;
-    text-align: center;
-    margin: 40px auto;
-    line-height: 50px;
-    border: 3px solid #86C232;
-    font-size: 28px;
-    text-decoration: none;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  display: inline-block;
+  color: #86c232;
+  border-radius: 50px;
+  width: 200px;
+  height: 58px;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 50px;
+  border: 3px solid #86c232;
+  font-size: 28px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .details-btn:hover {
-    background-color: #86C232;
-    color: #fff;
+  background-color: #86c232;
+  color: #fff;
 }
 
+.img-container {
+  display: flex;
+  background-color: #6b6e70;
+  padding: 50px;
+  padding-bottom: 120px;
+}
+.img-slider {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.img-3 {
+  transition: transform 0.5s;
+}
+.img-slider img {
+  max-width: 400px;
+  flex-basis: 30%;
+  min-width: 250px;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.img-3:hover {
+  transform: translateY(-10px);
+}
 
-.img-container{
-    display: flex;
-    background-color: #6B6E70;
-    padding: 50px;
+.upcoming h2 {
+  color: #86c232;
+  background-color: #222629;
+  text-align: center;
+  font-size: 60px;
+  padding: 100px 0;
 }
-.img-slider{
-    margin: 0 auto;
-    align-items: center;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.img-3{
-    transition: transform 0.5s;
-}
-.img-slider img{
-    max-width: 400px;
-    flex-basis:30%;
-    min-width: 250px;
-    margin: 40px;
-    padding: 20px;
-    border-radius: 30px;
-}
-.img-3:hover{
-    transform: translateY(-10px);
-}
-
-
-.upcoming h2{
-    color: #86C232;
-    background-color: #222629;
-    text-align: center;
-    font-size:60px;
-    padding: 100px 0;
-}
-.held h2{
-    color: #fff;
-    background-color: #6B6E70;
-    text-align: center;
-    font-size:60px;
-    padding: 100px 0 0;
+.held h2 {
+  color: #fff;
+  background-color: #6b6e70;
+  text-align: center;
+  font-size: 60px;
+  padding: 100px 0 0;
 }
 
 /* .container{
