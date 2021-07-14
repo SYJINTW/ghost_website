@@ -1,26 +1,24 @@
 const sendBtn = document.querySelector("#sendBtn");
-const url = "https://ghost-test-server.herokuapp.com/api/feedback";
+const url = "https://ghost-test-server.herokuapp.com/api/wishing";
 
 sendBtn.addEventListener("click", e => {
   e.preventDefault();
 
   const name = document.querySelector("#name").value;
   const email = document.querySelector("#email").value;
-  const book_name = document.querySelector("#book_name").value;
-  const isbn = document.querySelector("#isbn").value;
+  const subject = document.querySelector("#subject").value;
+  const message = document.querySelector("#message").value;
 
   if (!name) return window.alert("Please enter your name");
   else if (!email) return window.alert("Please enter your email address");
-  else if (!book_name) return window.alert("Please enter the book name");
-  else if (!isbn) return window.alert("Please enter the ISBN");
-
-  if (isbn.length != 13) return window.alert("ISBN must be 13 digits");
+  else if (!subject) return window.alert("Please enter the subject");
+  else if (!message) return window.alert("Please enter the message");
 
   const data = {
     name: `${name}`,
     email: `${email}`,
-    title: `${book_name}`,
-    ISBN: `${isbn}`,
+    subject: `${subject}`,
+    message: `${message}`,
   };
 
   fetch(url, {
@@ -28,6 +26,6 @@ sendBtn.addEventListener("click", e => {
     body: JSON.stringify(data),
     headers: { "Content-type": "application/json; charset=UTF-8" },
   });
-  window.alert("Successfully post the wish!");
-  window.location.href = "/book.html";
+  window.alert("Thanks for send us message! We will contact you soon!");
+  window.location.href = "/contact.html";
 });
