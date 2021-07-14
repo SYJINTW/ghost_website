@@ -17,7 +17,7 @@ getFood.addEventListener("click", function () {
             <p>${churchName}</p>
           </div>
           <div class="link">
-            <a href="/food_location.html">Look for anthor church?</a>
+            <a href="/food_location.html">Back to search page</a>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ getFood.addEventListener("click", function () {
             <p>${churchName}</p>
           </div>
           <div class="link">
-            <a href="/food_location.html">Look for anthor church?</a>
+            <a href="/food_location.html">Back to search page</a>
           </div>
         </div>
       </div>
