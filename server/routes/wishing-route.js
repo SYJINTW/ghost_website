@@ -62,7 +62,7 @@ router.delete("/:_id", async (req, res) => {
 
   mailTransport.sendMail(
     {
-      from: "sam108061250@gapp.nthu.edu.tw",
+      from: "GHOST <ghostteamstudio@gmail.com>",
       to: `${wishing.email}`,
       subject: "Your Wishing has been completed",
       html: `<h1>${wishing.title} has been completed</h1><p>Someone has completed your wishing</p>`,
