@@ -107,6 +107,7 @@ body {
 .container{
     padding: 50px 100px;
     background-color: #61892F;
+    align-items: center;
     text-align: center;
 }
 
@@ -133,9 +134,10 @@ body {
     transition: transform 0.5s;
     width: 500px;
     height: auto;
-    /*border: 5px solid #86C232 ;*/
+    /* border: 5px solid #86C232 ; */
     align-items: center;
     padding: 0px 30px;
+    text-align: center;
 }
 
 .row-3 .col-3 img {
@@ -149,13 +151,15 @@ body {
     color: #fff;
     margin: 10px 0;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .row-3 .col-3 p {
     font-size: 24px;
     color: #fff;
     height: 200px;
-    width: 350px;
+    text-align: center;
+    
 }
 
 .word-container{
@@ -198,5 +202,5 @@ body {
     border: 5px solid #61892F;
     color: #fff;
     background-color:#61892F;
-    margin: 0px;
+    margin: 50px;
 }
