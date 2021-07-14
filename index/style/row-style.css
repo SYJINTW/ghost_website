@@ -62,13 +62,13 @@ body{
 }
 .word-left{
     text-align: left;
-    max-width: 770px;
+    min-width: 450px;
     padding: 60px 80px;
-    margin: auto;
+    margin: 0;
 }
 .word-left h3, .word-right h3{
     font-size: 32px;
-    margin: 25px;
+    padding: 25px;
     color: #fff;
     
 }
@@ -77,15 +77,14 @@ body{
     color:#6B6E70;
 }
 .row-img-right img, .row-img-left img{
-    min-width: 500px;
+    padding: 0;
     max-height: 600px;
-    margin: 0px;
 }
 .word-right{
     text-align: left;
     max-width: 770px;
     padding: 60px 80px;
-    margin: auto;
+    margin: 0;
 }
 
 
