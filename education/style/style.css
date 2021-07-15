@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   height: 1080px;
-  background: url("/education/img/education-main.png");
+  background: url("/education/img/education-main.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -47,7 +47,7 @@
 .left-container {
   width: 37.5%;
 
-  background: url("/education/img/education-bg.png");
+  background: url("/education/img/education-bg.jpg");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;

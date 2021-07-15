@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   height: 1080px;
-  background: url("/action/img/action-main.png");
+  background: url("/action/img/action-main.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -31,7 +31,7 @@
 
 .left-container {
   width: 37.5%;
-  background: url("/action/img/action-bg.png");
+  background: url("/action/img/action-bg.jpg");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
